@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+<div class="container">
+  <img class="img_mobile mobile_img" src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+  <main class="page_princi">
+    <div class="page_form">
+      <h1> Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul>
+       <li> <img src="./assets/images/icon-list.svg" alt="">  Product discovery and building what matters</li>
+       <li> <img src="./assets/images/icon-list.svg" alt="">  Measuring to ensure updates are a success</li>
+       <li> <img src="./assets/images/icon-list.svg" alt=""> And much more!</li>
+      </ul>
+
+      <div class="formulario">
+        <form id="myForm" novalidate>
+          <div class="textForm">
+            <label for="email">Email address</label>  
+            <span class="error-message"></span>
+          </div>
+          <input type="email"  placeholder="email@company.com" name="email" id="email">
+          <button type="submit" class="subscribe"> Subscribe to monthly newsletter</button>
+        </form>
+
+      </div>
+   </div>
+   <div class="fundo">
+     <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+   </div>
+  </main>
+
+  <div id="sucess_message" class="hidden">
+
+  </div>
+</div>
+<script src="script.js"></script>
+ 
+</body>
+</html>
