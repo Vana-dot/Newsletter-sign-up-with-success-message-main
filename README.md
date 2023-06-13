@@ -12,7 +12,7 @@ Desafio desenvolvido do Frontend Mentor
 
 ![Imagem do projeto](./assets/images/sign-up_form_with_success_message.png)
 
-![Imagem do projeto](./assets/images/form_with_success%20message.png)
+![Imagem do projeto](./assets/images/form_with_success_message.png)
 
 ### Versão mobile
 
